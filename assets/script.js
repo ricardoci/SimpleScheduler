@@ -1,5 +1,6 @@
 $('.saveBtn').on('click', function () {
     // Get nearby values
+    //previousElementSibling of the element with the class .saveBtn is being accessed, and its value which is the <textarea>
     var value = this.previousElementSibling.value;
     var time = this.closest('.time-block').id;
 
